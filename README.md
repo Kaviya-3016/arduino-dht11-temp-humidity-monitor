@@ -13,6 +13,16 @@ A simple yet effective project that reads **temperature** and **humidity** data 
 | USB Cable         | 1        |
 
 ---
+## Thingzkit mini board
+
+<img width="1000" height="636" alt="mini" src="https://github.com/user-attachments/assets/bf1b8b0d-b29e-480f-aba4-6c615416f0f8" />
+
+---
+### DHT11 Sensor
+
+<img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/77590475-0f04-41e5-8d0b-1c3fcaba65bf" />
+
+---
 ## 🖥️ Software Requirements
 
 - Arduino IDE
@@ -21,24 +31,22 @@ A simple yet effective project that reads **temperature** and **humidity** data 
 - USB Drivers for Thingzkit Mini
 
 ---
-## 🧠 Circuit Diagram
+## 🧠 Setup Diagram
 
-📷 _Upload and replace the below image with your setup_
-
-![Circuit Diagram](images/circuit.jpg)
+![WhatsApp Image 2025-07-24 at 20 59 18_deb38536](https://github.com/user-attachments/assets/76be8548-5f84-47e8-b77a-4631922b69c3)
 
 ---
 ## 📌 Output Format
 
-Reading from DHT11...
-Temp: 28.00 °C, Humidity: 65.00 %
-Temp: 28.10 °C, Humidity: 64.50 %
+- Reading from DHT11...
+- Temp: 28.00 °C, Humidity: 65.00 %
+- Temp: 28.10 °C, Humidity: 64.50 %
 
 ---
 
 ## 📄 Arduino Code
 
-```cpp
+```
 #include "DHT.h"
 #include "Adafruit_Sensor.h"
 
@@ -70,6 +78,8 @@ void loop() {
 
   delay(2000);
 }
+```
+
 ---
 
 ## 🚀 How to Run
