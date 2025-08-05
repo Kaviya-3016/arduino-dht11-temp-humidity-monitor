@@ -106,13 +106,14 @@ void loop() {
 ---
 
 ## 📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License – see the ```LICENSE``` file for details.
+
 ---
 
 ## 👩‍💻 Author
 Kaviya Murugan
 🎓 ECE Engineering | 💡 Embedded & AI Enthusiast
-🔗 LinkedIn --www.linkedin.com/in/kaviya-murugan--
+🔗  [LinkedIn](https://linkedin.com/in/kaviyamurugan) | [GitHub](https://github.com/kaviya-3016)
 
 
 
